@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import com.adventofcode.BasePuzzleTest;
 
-class Day1PuzzleTest extends BasePuzzleTest {
+class PuzzleTestDay1 extends BasePuzzleTest {
   private final CalorieCounter counter = new CalorieCounter();
 
   @Test
