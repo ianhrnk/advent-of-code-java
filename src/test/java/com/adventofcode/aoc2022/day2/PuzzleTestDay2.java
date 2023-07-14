@@ -36,7 +36,7 @@ class PuzzleTestDay2 extends BasePuzzleTest {
   @Test
   void partTwoInputTest() {
     final String input = readInputFromFile("inputs/aoc2022/day2/input.txt");
-    final int totalScore = sc.calculateTotalScorePartOne(input);
+    final int totalScore = sc.calculateTotalScorePartTwo(input);
 
     assertEquals(8295, totalScore);
   }
